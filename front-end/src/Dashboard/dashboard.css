@@ -1,0 +1,115 @@
+.dashBoard-mainContainer {
+  height: 1.25rem;
+  width: 100%;
+  background-color: var(--mainClr);
+}
+.dashBoard-mainContainer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.dashBoard-mainContainer__inner img {
+  height: 0.5rem;
+  cursor: pointer;
+}
+
+.logout-dialog {
+  margin-left: 17.74rem;
+  z-index: 1111;
+  width: 7rem;
+  height: 4rem;
+  position: relative;
+  bottom: 0.55rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.1rem;
+  align-items: center;
+  border: none;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.logout-dialog h5 {
+  font-size: 0.25rem;
+  text-align: center;
+  color: rgba(140, 153, 153, 0.967);
+}
+.logout-dialog h4 {
+  font-size: 0.4rem;
+  text-align: center;
+  color: var(--mainClr);
+  padding-bottom: 0.1rem;
+}
+.dialog-content button {
+  padding: 0.18rem;
+  font-size: 0.3rem;
+  color: var(--mainClr);
+  background-color: transparent;
+  border: 0.02rem solid var(--mainClr);
+  border-radius: 0.2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.dashBoard-section {
+  display: flex;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  gap: 0.5%;
+}
+.dashBoard-section__leftSide {
+  width: 25%;
+  height: 10.25rem;
+  border-radius: 0.2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+.dashBoard-section__leftSide button {
+  padding: 0.2rem;
+  margin: 0.25rem 0.2rem 0.2rem 0.2rem;
+  display: flex;
+  gap: 0.4rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 0.15rem;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+.dashBoard-section__leftSide button:hover {
+  background: #f4edaf;
+}
+.dashBoard-section__leftSide img {
+  width: 0.5rem;
+  margin-left: 0.2rem;
+}
+.dashBoard-section__leftSide p {
+  font-size: 0.35rem;
+}
+.dashBoard-section__RightSide {
+  width: 74%;
+  height: 10.25rem;
+  border-radius: 0.2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.dashBoard-section__Dashboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+}
+.dashBoard-section__Dashboard p{
+    font-size: 0.5rem;
+ 
+}
+.dashBoard-section__Dashboard img{
+    width: 3rem;
+    height: auto;
+    
+}
